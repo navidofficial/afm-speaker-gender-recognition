@@ -1,0 +1,8 @@
+run,method,n_filters,TIMIT_acc_%,RAVDESS_acc_%,VoxCeleb1_acc_%
+cascade_timit,"Cascade (teacher, 80 filters)",80,99.18,95.49,96.8
+reduced_timit,Paper Reduced (Mean-shift),43,98.07,89.58,91.53
+reduced_A_timit,A: task-aware ERB mean-shift,43,98.29,91.25,91.83
+reduced_B_timit,B: L0 gates,43,98.21,85.42,86.54
+reduced_C_timit,C: response clustering,43,97.62,82.15,83.11
+reduced_D_timit,D: Mean-shift + KD + trainable f1/f2,43,98.96,94.65,92.35
+reduced_AD_timit,A+D: task-aware + KD + trainable f1/f2,43,98.88,95.63,93.48

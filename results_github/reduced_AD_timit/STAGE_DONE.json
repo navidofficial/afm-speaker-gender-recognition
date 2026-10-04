@@ -1,0 +1,14 @@
+{
+  "stage": "reduced_new",
+  "done": true,
+  "variant": "AD",
+  "metrics": {
+    "cer": 1.1160731315612793,
+    "fer": 3.5468272864818573,
+    "accuracy": 98.88392686843872,
+    "frame_accuracy": 96.45317271351814,
+    "loss": 0.1186135858297348,
+    "n_utt": 1344.0,
+    "n_chunks": 335735.0
+  }
+}

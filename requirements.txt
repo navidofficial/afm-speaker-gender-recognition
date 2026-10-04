@@ -1,0 +1,9 @@
+torch>=2.0
+torchaudio>=2.0
+numpy>=1.23
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+tqdm>=4.65
+PyYAML>=6.0
+soundfile>=0.12

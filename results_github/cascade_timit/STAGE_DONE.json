@@ -1,0 +1,15 @@
+{
+  "stage": "timit",
+  "done": true,
+  "frontend": "cascade",
+  "epochs": 50,
+  "metrics": {
+    "cer": 0.8184552192687988,
+    "fer": 3.059542551636696,
+    "accuracy": 99.1815447807312,
+    "frame_accuracy": 96.9404574483633,
+    "loss": 0.0877273678779602,
+    "n_utt": 1344.0,
+    "n_chunks": 335735.0
+  }
+}

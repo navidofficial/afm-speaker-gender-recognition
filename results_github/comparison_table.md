@@ -1,0 +1,41 @@
+# Comparison table
+
+| run | frontend | eval_set | accuracy_% | CER_% | FER_% |
+|-----|----------|----------|------------|-------|-------|
+| cascade_timit | cascade | timit_test | 99.18 | 0.82 | 3.06 |
+| cascade_timit_finetune | cascade | ravdess | 95.49 | 4.51 | 26.32 |
+| cascade_timit_finetune | cascade | voxceleb1_test | 96.80 | 3.20 | 17.44 |
+| free_timit | free | timit_test | 98.66 | 1.34 | 3.88 |
+| free_timit_finetune | free | ravdess | 88.47 | 11.53 | 26.17 |
+| free_timit_finetune | free | voxceleb1_test | 76.16 | 23.84 | 31.45 |
+| gamma_timit | gamma | timit_test | 98.88 | 1.12 | 3.25 |
+| gamma_timit_finetune | gamma | ravdess | 96.04 | 3.96 | 27.53 |
+| gamma_timit_finetune | gamma | voxceleb1_test | 95.88 | 4.12 | 18.65 |
+| gauss_timit | gauss | timit_test | 98.88 | 1.12 | 3.09 |
+| gauss_timit_finetune | gauss | ravdess | 95.21 | 4.79 | 27.51 |
+| gauss_timit_finetune | gauss | voxceleb1_test | 95.69 | 4.31 | 17.69 |
+| mel_timit | mel | timit_test | 98.66 | 1.34 | 3.52 |
+| reduced_A_timit | reduced | timit_test | 98.29 | 1.71 | 5.04 |
+| reduced_A_timit_finetune | reduced | ravdess | 91.25 | 8.75 | 27.90 |
+| reduced_A_timit_finetune | reduced | voxceleb1_test | 91.83 | 8.17 | 22.49 |
+| reduced_AD_timit | reduced | timit_test | 98.88 | 1.12 | 3.55 |
+| reduced_AD_timit_finetune | reduced | ravdess | 95.63 | 4.37 | 26.10 |
+| reduced_AD_timit_finetune | reduced | voxceleb1_test | 93.48 | 6.52 | 20.73 |
+| reduced_B_timit | reduced | timit_test | 98.21 | 1.79 | 5.22 |
+| reduced_B_timit_finetune | reduced | ravdess | 85.42 | 14.58 | 31.84 |
+| reduced_B_timit_finetune | reduced | voxceleb1_test | 86.54 | 13.46 | 28.51 |
+| reduced_C_timit | reduced | timit_test | 97.62 | 2.38 | 7.31 |
+| reduced_C_timit_finetune | reduced | ravdess | 82.15 | 17.85 | 29.65 |
+| reduced_C_timit_finetune | reduced | voxceleb1_test | 83.11 | 16.89 | 30.29 |
+| reduced_D_timit | reduced | timit_test | 98.96 | 1.04 | 3.30 |
+| reduced_D_timit_finetune | reduced | ravdess | 94.65 | 5.35 | 29.32 |
+| reduced_D_timit_finetune | reduced | voxceleb1_test | 92.35 | 7.65 | 23.24 |
+| reduced_timit | reduced | timit_test | 98.07 | 1.93 | 5.99 |
+| reduced_timit_finetune | reduced | ravdess | 89.58 | 10.42 | 28.88 |
+| reduced_timit_finetune | reduced | voxceleb1_test | 91.53 | 8.47 | 23.17 |
+| sinc2_timit | sinc2 | timit_test | 98.88 | 1.12 | 3.72 |
+| sinc2_timit_finetune | sinc2 | ravdess | 93.47 | 6.53 | 28.06 |
+| sinc2_timit_finetune | sinc2 | voxceleb1_test | 95.38 | 4.62 | 17.87 |
+| sinc_timit | sinc | timit_test | 98.88 | 1.12 | 3.29 |
+| sinc_timit_finetune | sinc | ravdess | 94.65 | 5.35 | 25.41 |
+| sinc_timit_finetune | sinc | voxceleb1_test | 96.96 | 3.04 | 17.30 |

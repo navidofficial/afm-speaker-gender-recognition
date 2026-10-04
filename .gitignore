@@ -1,0 +1,39 @@
+# Datasets (download locally; see README)
+data/
+
+# Legacy results tree
+results/
+
+# Checkpoints (large; re-train or store separately)
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+
+# IDE / local
+.cursor/
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.*
+
+# LaTeX build artifacts (sources + PDF kept)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS
+Thumbs.db
+Desktop.ini

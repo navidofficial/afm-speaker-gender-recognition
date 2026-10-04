@@ -1,0 +1,15 @@
+{
+  "stage": "timit",
+  "done": true,
+  "frontend": "gauss",
+  "epochs": 50,
+  "metrics": {
+    "cer": 1.1160731315612793,
+    "fer": 3.09177003800869,
+    "accuracy": 98.88392686843872,
+    "frame_accuracy": 96.90822996199131,
+    "loss": 0.09301317483186722,
+    "n_utt": 1344.0,
+    "n_chunks": 335735.0
+  }
+}
